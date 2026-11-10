@@ -1,0 +1,10 @@
+div{
+    background-color:#CFC7C0;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    padding: 0.2em;
+    position: static;
+    top: 0;
+    left: 0;
+}
