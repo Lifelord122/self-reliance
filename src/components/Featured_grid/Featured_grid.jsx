@@ -1,7 +1,7 @@
 import './Featured_grid.css'
-import Featured_card from "./Featured_card"
-import test from './assets/test.png'
-import tree from './assets/image.png'
+import Featured_card from "../Featured_card/Featured_card"
+import test from '../../assets/test.png'
+import tree from '../../assets/image.png'
 
 export default function Featured_grid(){
     return(

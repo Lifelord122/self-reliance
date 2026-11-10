@@ -20,3 +20,9 @@ button{
     height: 3em;
     font: 1em sans-serif;
 }
+.title{
+    padding: 10px;
+}
+.button-line{
+    padding: 5px;
+}
