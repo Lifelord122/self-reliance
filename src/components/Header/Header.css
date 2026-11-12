@@ -20,6 +20,25 @@ button{
     height: 3em;
     font: 1em sans-serif;
 }
+.nav-button {
+    box-sizing: border-box;
+    width: 10em;
+    height: 3em;
+    padding: 0;
+    font: 1em sans-serif;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: #eee;
+    color: #222;
+    cursor: pointer;
+     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.nav-button:hover {
+    background-color: #ddd;
+}
 .title{
     padding: 10px;
 }

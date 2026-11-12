@@ -1,5 +1,7 @@
 import './Header.css'
 
+import { Link } from 'react-router';
+
 function Header(){
 return(
     <header>
@@ -7,11 +9,12 @@ return(
         <h2>ForYourself: Learn and Share about all things self-reliance, homesteading and sustainability!</h2>
         </div>
         <div className='button-line'>
-            <button> Home </button>
-            <button> About </button>
+            <Link className="nav-button" to="/">Home</Link>
+             <Link className="nav-button" to="/about">About</Link>
             <button> Projects </button>
             <button> Placeholder</button>
         </div>
+
     </header>
 )
 }
