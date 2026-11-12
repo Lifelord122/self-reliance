@@ -1,4 +1,5 @@
 import './Featured_card.css'
+import { Link } from 'react-router'
 
 export default function Featured_card(props){
     return(
@@ -7,7 +8,9 @@ export default function Featured_card(props){
             <img src={props.image}/>
             </div>
             <div className="card_content">
-                <h3>{props.title}</h3>
+                <h3><Link to={`/articles/${props.slug}`}>
+                    {props.title}
+                </Link></h3>
                 <p>{props.content}</p>
         </div>
         </div>

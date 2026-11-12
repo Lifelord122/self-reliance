@@ -7,6 +7,7 @@ export default function Featured_grid(){
     return(
         <div className="grid">
             <Featured_card image={test}
+            slug="test"
             title="this is an epic"
             content="And hopefuly there is much more of it to come!"
             />

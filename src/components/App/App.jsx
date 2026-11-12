@@ -9,6 +9,7 @@ import { HashRouter, Routes, Route, Link } from 'react-router'
 
 import HomePage from '../../pages/HomePage'
 import AboutPage from '../../pages/AboutPage'
+import ArticlePage from '../../pages/ArticlePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/articles/:slug" element={<ArticlePage />} />
           </Routes>
       </main>
       <Footer/>
