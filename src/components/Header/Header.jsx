@@ -12,7 +12,7 @@ return(
             <Link className="nav-button" to="/">Home</Link>
             <Link className="nav-button" to="/about">About</Link>
             <Link className="nav-button" to="/recipe-finder">Recipe Finder</Link>
-            <button> Placeholder</button>
+            <Link className="nav-button" to="/placeholder">Placeholder</Link>
         </div>
 
     </header>

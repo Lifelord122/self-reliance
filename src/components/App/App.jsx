@@ -11,6 +11,7 @@ import HomePage from '../../pages/HomePage'
 import AboutPage from '../../pages/AboutPage'
 import ArticlePage from '../../pages/ArticlePage'
 import RecipeFinderPage from '../../pages/RecipeFinderPage'
+import Placeholder from '../../pages/ProjectsPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/articles/:slug" element={<ArticlePage />} />
             <Route path="/recipe-finder" element={<RecipeFinderPage/>}/>
+            <Route path="/placeholder" element={<Placeholder/>}/>
           </Routes>
       </main>
       <Footer/>
