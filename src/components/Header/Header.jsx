@@ -10,8 +10,8 @@ return(
         </div>
         <div className='button-line'>
             <Link className="nav-button" to="/">Home</Link>
-             <Link className="nav-button" to="/about">About</Link>
-            <button> Projects </button>
+            <Link className="nav-button" to="/about">About</Link>
+            <Link className="nav-button" to="/recipe-finder">Recipe Finder</Link>
             <button> Placeholder</button>
         </div>
 

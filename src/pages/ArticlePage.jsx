@@ -1,7 +1,7 @@
 import { useParams } from "react-router"
 import { articles } from "../data/articles"
 
-export default function ArticlePage(props){
+export default function ArticlePage(){
     const { slug } = useParams();
     const article = articles.find((article) => article.slug === slug);
 

@@ -12,6 +12,7 @@ export default function Featured_grid(){
             content="And hopefuly there is much more of it to come!"
             />
             <Featured_card image={tree}
+            slug="a"
             title="Trees are growing slower!"
             content="Due to a bad year and other climate issues, trees in Finland are growing several times slower."
             />

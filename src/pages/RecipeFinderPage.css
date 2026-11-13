@@ -1,0 +1,19 @@
+.recipe-results {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    align-items: flex-start;
+}
+
+.recipe-card{
+    min-width: 0;
+}
+
+.recipe-card .card-img-top{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
